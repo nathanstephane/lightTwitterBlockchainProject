@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+*/
+
+body {
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+} 
+
+/* .MetamaskBtn {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+
+
+
+
+
+/* CSS */
+.button {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  margin: auto;
+  touch-action: manipulation;
+  margin: 50px;
+  margin-left: 45%;
+  width: 350px;
+  height: 80px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #84dcff;
+}
+
